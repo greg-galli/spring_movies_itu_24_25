@@ -9,16 +9,16 @@ L’accent sera mis sur la **propreté du code**, le **respect des conventions R
 ## Ressources REST
 
 ### Ressources *collection*
-- `GET /movies` : liste tous les films
-- `POST /movies` : ajoute un nouveau film
-- `GET /categories` : liste toutes les catégories
-- `POST /categories` : ajoute une nouvelle catégorie
+- `GET /api/movies` : liste tous les films
+- `POST /api/movies` : ajoute un nouveau film
+- `GET /api/categories` : liste toutes les catégories
+- `POST /api/categories` : ajoute une nouvelle catégorie
 
 ### Ressources *singleton*
-- `GET /movie/{id}` : récupère un film par son identifiant
-- `PUT /movie/{id}` : met à jour complètement un film
-- `PATCH /movie/{id}` : met à jour partiellement un film
-- `DELETE /movie/{id}` : supprime un film
+- `GET /api/movie/{id}` : récupère un film par son identifiant
+- `PUT /api/movie/{id}` : met à jour complètement un film
+- `PATCH /api/movie/{id}` : met à jour partiellement un film
+- `DELETE /api/movie/{id}` : supprime un film
 
 Même logique pour `/categorie/{id}`.
 
